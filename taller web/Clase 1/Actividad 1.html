@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reseña: Star Wars - Una Nueva Esperanza</title>
+</head>
+<body>
+
+    <header>
+        <h1>Reseña: Star Wars: Episodio IV - Una Nueva Esperanza (1977)</h1>
+        
+        <nav>
+            <a href="#sinopsis">Ir a Sinopsis</a> | 
+            <a href="#personajes">Ir a Personajes</a> | 
+            <a href="#calificacion">¡Califica la Película!</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <img src="https://placehold.co/300x450" alt="Póster oficial de Star Wars: Una Nueva Esperanza" width="300">
+
+            <section id="sinopsis">
+                <h2>Sinopsis</h2>
+                <p>
+                    La galaxia está inmersa en una guerra civil. La Alianza Rebelde lucha contra el opresivo Imperio Galáctico. 
+                    La princesa Leia Organa es capturada por las fuerzas imperiales, lideradas por el temible Darth Vader, pero no sin antes 
+                    enviar un mensaje de ayuda a través de los droides R2-D2 y C-3PO. El mensaje llega a un joven granjero en el desértico 
+                    planeta de Tatooine, Luke Skywalker, quien se embarca en una aventura épica junto al sabio caballero Jedi, Obi-Wan Kenobi, 
+                    y los contrabandistas Han Solo y Chewbacca para rescatar a la princesa y restaurar la libertad en la galaxia.
+                </p>
+                <p>
+                    Para más detalles, puedes visitar la <a href="https://es.wikipedia.org/wiki/Star_Wars:_Episode_IV_-_A_New_Hope" target="_blank">página de Wikipedia</a>.
+                </p>
+            </section>
+
+            <section id="personajes">
+                <h2>Personajes Principales</h2>
+                <ul>
+                    <li>Luke Skywalker</li>
+                    <li>Princesa Leia Organa</li>
+                    <li>Han Solo</li>
+                    <li>Obi-Wan Kenobi</li>
+                    <li>Darth Vader</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Momentos Clave</h2>
+                <ol>
+                    <li>La compra de los droides por parte de Luke.</li>
+                    <li>El encuentro con Obi-Wan Kenobi.</li>
+                    <li>El rescate de la Princesa Leia en la Estrella de la Muerte.</li>
+                    <li>El duelo entre Obi-Wan y Darth Vader.</li>
+                    <li>El asalto final a la Estrella de la Muerte.</li>
+                </ol>
+            </section>
+            
+            <section id="calificacion">
+                <h2>¡Califica esta Película!</h2>
+                
+                <form action="/enviar-calificacion.php" method="post">
+                    <div>
+                        <label for="nombre">Tu Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre_usuario" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Tu Email:</label><br>
+                        <input type="email" id="email" name="email_usuario" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="puntuacion">Calificación (1 a 10):</label><br>
+                        <input type="number" id="puntuacion" name="puntuacion_usuario" min="1" max="10" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="opinion">Tu Opinión:</label><br>
+                        <textarea id="opinion" name="opinion_usuario" rows="5" cols="50" required></textarea>
+                    </div>
+                    <br>
+                    <button type="submit">Enviar Calificación</button>
+                </form>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Reseña creada por Felipe Olivares</p>
+    </footer>
+
+</body>
+</html>

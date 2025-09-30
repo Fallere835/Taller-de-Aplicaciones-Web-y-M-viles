@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ingreso vehiculo - MIAUtomotriz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1>MIAUtomotriz</h1>            
+        </header>
+        <main>
+            <section>
+                <form action="/RegistrarVehiculo.php" method="post">
+                    <label for="patente">Patente: </label>
+                    <input type="text" id="patente" required>
+                    
+                    <label for="marca">Modelo:</label>
+                    <select id="marca" required>
+                        <option value="">---</option>
+                        <option value="BMW">BMW</option>
+                    </select>
+                    <label>Componentes Presentes:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="componentes[]" value="Radio">Radio</labeel>
+                    </div>
+                    <label>Transmisión:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="transmision" value="Automatico">Automatico</labeel>
+                        <label><input type="radio" name="transmision" value="Mecanico">Mecanico</labeel>
+                    </div>
+                    <input type="submit" value="Registrar Vehiculo">
+                </form>    
+            </section>            
+        </main>        
+        <footer>
+            <p style="text-align: center;">&copy; 2025 MIAUtomotriz</p>
+        </footer>
+        
+        
+    </body>
+</html>

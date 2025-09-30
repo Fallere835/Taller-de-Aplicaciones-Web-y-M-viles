@@ -1,0 +1,4 @@
+Toyota,Yaris,BBCL-01
+Nissan,Versa,CRJG-02
+Chevrolet,Onix,FGHT-03
+Hyundai,Accent,JKLM-04

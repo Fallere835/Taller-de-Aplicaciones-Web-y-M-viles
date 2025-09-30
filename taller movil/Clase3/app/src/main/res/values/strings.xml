@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Clase 3</string>
+    <string name="vehiculo_seleccionado">Vehiculo Seleccionado: %1$s</string>
+</resources>
