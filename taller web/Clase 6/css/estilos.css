@@ -1,0 +1,101 @@
+/* --- ESTILOS GENERALES (Selector de Tipo) --- */
+/* Afecta a toda la página. Es buena práctica definir aquí la fuente base y resetear márgenes. */
+body {
+    font-family: Arial, sans-serif; /* Define la familia de fuentes para todo el documento. */
+    margin: 0;                     /* Elimina el margen que los navegadores ponen por defecto. */
+    background-color: #f4f4f4;     /* Un color de fondo gris claro para la página. */
+    color: #333;                   /* Color de texto principal oscuro. */
+}
+
+/* --- ESTILOS DEL ENCABEZADO (Selector de ID) --- */
+/* Este estilo solo se aplicará al elemento con id="encabezado-principal". */
+#encabezado-principal {
+    background-image: url('https://via.placeholder.com/1500x400.png/2c3e50/ffffff?text=Header+Image'); /* Imagen de fondo de un servicio de placeholders. */
+    background-size: cover;        /* La imagen cubre todo el espacio del header. */
+    background-position: center;   /* Centra la imagen de fondo. */
+    height: 300px;                 /* Altura fija para el encabezado. */
+    color: white;                  /* Color del texto blanco para que contraste con el fondo. */
+    text-align: center;            /* Centra el texto horizontalmente. */
+    padding: 40px;                 /* Añade relleno para que el texto no toque los bordes. */
+}
+
+/* --- ESTILOS DE LA BARRA DE NAVEGACIÓN (Selector de Clase) --- */
+/* Se aplica a cualquier elemento con class="navbar". */
+.navbar {
+    background-color: #333;        /* Fondo oscuro para la barra. */
+    overflow: hidden;              /* Asegura que el contenido no se salga. */
+}
+
+/* Estilos para la lista dentro de la barra de navegación. */
+.navbar ul {
+    list-style-type: none;         /* Quita los puntos de la lista. */
+    margin: 0;                     /* Quita el margen de la lista. */
+    padding: 0;                    /* Quita el relleno de la lista. */
+    text-align: center;            /* Centra los elementos de la lista. */
+}
+
+/* Estilos para cada elemento de la lista. */
+.navbar li {
+    display: inline-block;         /* Hace que los elementos de la lista se pongan en línea, uno al lado del otro. */
+}
+
+/* Estilos para los enlaces dentro de la barra de navegación. */
+.navbar a {
+    display: block;                /* Hace que el enlace ocupe todo el espacio del <li>. */
+    color: white;                  /* Texto blanco. */
+    padding: 14px 20px;            /* Relleno para hacerlos más grandes y fáciles de clickear. */
+    text-decoration: none;         /* Quita el subrayado de los enlaces. */
+}
+
+/* --- ESTILOS DEL CONTENEDOR PRINCIPAL (Selector de Clase) --- */
+.contenedor {
+    width: 80%;                    /* El contenedor ocupa el 80% del ancho de la página. */
+    max-width: 960px;              /* Pero como máximo tendrá 960px de ancho. */
+    margin: 20px auto;             /* 20px de margen arriba/abajo y "auto" a los lados para centrarlo. */
+    padding: 20px;                 /* Relleno interno. */
+    background-color: white;       /* Fondo blanco para que resalte sobre el gris de la página. */
+    border: 1px solid #ddd;        /* Un borde sutil. */
+}
+
+/* --- ESTILOS PARA LA TABLA (Selector de Clase) --- */
+.tabla-datos {
+    width: 100%;                   /* La tabla ocupa todo el ancho de su contenedor. */
+    border-collapse: collapse;     /* Las celdas de la tabla tendrán bordes compartidos. */
+    margin-top: 20px;              /* Espacio por encima de la tabla. */
+}
+
+/* Estilos para las celdas (th y td) de la tabla. */
+.tabla-datos th, .tabla-datos td {
+    border: 1px solid #ccc;        /* Borde para cada celda. */
+    padding: 10px;                 /* Relleno dentro de cada celda. */
+    text-align: left;              /* Alineación del texto a la izquierda. */
+}
+
+/* Estilo específico para los encabezados de la tabla (th). */
+.tabla-datos th {
+    background-color: #333;        /* Fondo oscuro para los encabezados. */
+    color: white;                  /* Texto blanco. */
+}
+
+/* --- ESTILOS PARA LA DEMO DEL BOX MODEL (Selector de Clase) --- */
+.caja-demostracion {
+    background-color: #e7f3fe;     /* Un color de fondo celeste para diferenciarla. */
+    
+    /* El Borde: una línea sólida de 2px de color azul. */
+    border: 2px solid #2980b9; 
+    
+    /* El Relleno (Padding): 20px de espacio entre el borde y el texto de adentro. */
+    padding: 20px;
+    
+    /* El Margen (Margin): 30px de espacio por fuera del borde, empujando a otros elementos. */
+    margin: 30px 0;
+}
+
+/* --- ESTILOS DEL PIE DE PÁGINA (Selector de Tipo) --- */
+footer {
+    background-color: #333;        /* Fondo oscuro. */
+    color: white;                  /* Texto blanco. */
+    text-align: center;            /* Texto centrado. */
+    padding: 20px;                 /* Relleno. */
+    margin-top: 30px;              /* Espacio por encima del footer. */
+}
