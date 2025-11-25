@@ -15,7 +15,7 @@ public class AutomotoraService {
     private RequestQueue queue;
     private Context context;
     // IMPORTANTE: Cambiar por la IP de la Raspberry en la clase
-    private static final String URL_LOGIN = "http://192.168.X.X/api/login.php";
+    private static final String URL_LOGIN = "http://192.168.X.X/miau_web/api/";
 
     public AutomotoraService(Context context) {
         this.context = context;
