@@ -1,0 +1,16 @@
+/* css/style.css */
+body {
+    background-color: #f4f6f9;
+}
+.card-dashboard {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.chart-container {
+    position: relative;
+    height: 300px;
+}
+/* Clase para ocultar filas en el filtro JS */
+.fila-oculta {
+    display: none;
+}
