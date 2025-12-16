@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968088691864",
+    "project_id": "appandroid-446d8",
+    "storage_bucket": "appandroid-446d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968088691864:android:381b329271e1b8d35d5ced",
+        "android_client_info": {
+          "package_name": "com.example.automotora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeSi3MmXMc-GUQjsUyIm85tihB0R2dLp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
